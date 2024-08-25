@@ -22,3 +22,9 @@ GoogleSignInAccount? account = await googleSignIn.signIn();
 GoogleSignInAuthentication? authentication = await account?.authentication;
 String? idToken = authentication?.idToken;
 ```
+
+
+### NOTE / Ref
+- https://stackoverflow.com/questions/78407973/i-am-trying-to-resolve-phonepe-payment-integration-error-in-flutter
+- https://pub.dev/packages/google_sign_in
+- https://console.developers.google.com/apis/credentials/consent
